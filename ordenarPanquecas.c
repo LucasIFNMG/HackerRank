@@ -27,8 +27,8 @@ Exemplo:
 void flipPanquecas(int panquecas[] , int tamanhoPilha, int maiorPanquecaPilha, int indiceMaior)
 {
     int i,j;
+    
     //Se a maior estiver no topo, flipa tudo
-    printf("FLIP. MAIOR = %d",maiorPanquecaPilha);
     if(panquecas[0] == maiorPanquecaPilha)
     {
         for(i = 0; i < tamanhoPilha; )
@@ -69,10 +69,7 @@ void flipPanquecas(int panquecas[] , int tamanhoPilha, int maiorPanquecaPilha, i
                     break;
                 }
             if (i > j)
-            {
-                printf("BREAK! i = %d , j = %d",i,j);
                 break;
-            }
         }
         
     }
@@ -99,7 +96,6 @@ void ordenaPanquecas (int panquecas[] , int tamanhoPilha)
                 if(panquecas[tamanhoPilha-1] == maiorPanquecaPilha)
                     ordenaPanquecas(panquecas, tamanhoPilha - 1);
             }
-
 }
 
 int main()
