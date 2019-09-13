@@ -4,8 +4,11 @@
 
 //Problema Adaptado de https://www.ime.usp.br/~cef/IImaratona/prova-junior/node13.html
 
-/* Ordenar a Pilha de panquecas, usando somente uma espátula, ou seja, só é possível colocá-la embaixo de uma pilha de panquecas e virá-las de cabeça pra baixo ,
+/* Ordenar uma Pilha de panquecas, usando somente uma espátula, ou seja, só é possível colocá-la embaixo de uma pilha de panquecas e virá-las de cabeça pra baixo ,
 invertendo a ordem.
+
+Os números representam os diâmetros das panquecas
+
 Exemplo: (Flip 5) | (Flip 4)
     2   =>  5     | 3   =>  4
     5   =>  2     | 9   =>  8
